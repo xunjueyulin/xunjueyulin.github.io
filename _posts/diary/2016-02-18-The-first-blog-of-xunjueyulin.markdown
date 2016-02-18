@@ -2,9 +2,12 @@
 layout: post
 title:  "Test-The first blog of xunjueyulin"
 date:   2016-02-18 16:43:54
-categories: dairy
+categories: diary
 comments: true
 ---
+
+## 第一篇文章
+
 > 啪啪啪啪~
 
 伴着节后人没到齐的上（wu）班（liao）

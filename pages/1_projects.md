@@ -11,7 +11,7 @@ permalink: /projects/
 # All my projects
 Following are projects started by me. 
 
-## NPL project
+/*## NPL project
 * Started: 2004-present
 * Website: [www.nplproject.com](http://www.nplproject.com)
    * NPL Code Wiki
@@ -71,4 +71,5 @@ Kids Movie Creator is a very old shareware released in 2006, allowing kids to cr
 ## Before 2005
 * Started: 1989-2005 (very old ones)
 * [Xizhi's old website before 2005](/oldsite2005/projects.htm). 
+*/
 

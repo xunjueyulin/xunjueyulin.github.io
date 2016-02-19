@@ -19,10 +19,10 @@ viewsourceroot: https://github.com/xunjueyulin
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
 duoshuo_shortname: xunjueyulin
-duoshuo_url: "http://xunjueyulin.github.io"
+duoshuo_url: "xunjueyulin.duoshuo.com"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus_shortname: xunjueyulin
-disqus_url: "http://xunjueyulin.github.io"
+#disqus_shortname: xunjueyulin
+#disqus_url: "http://xunjueyulin.github.io"
 #########################################
 
 # Build settings

@@ -10,7 +10,11 @@
 
     <div id="main" class="container main">
       {{ content }}
-	 <!-- 多说评论框 start -->
+    </div>
+
+    
+    <div id="top" data-toggle="tooltip" data-placement="left" title="back to top">
+     <!-- 多说评论框 start -->
 	 <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="http://xunjueyulin.github.io{{page.url}}"></div>
      <!-- 多说评论框 end -->
      <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
@@ -25,13 +29,8 @@
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	    })();
 	    </script>
-    <!-- 多说公共JS代码 end -->
-
-    </div>
-
-    
-    <div id="top" data-toggle="tooltip" data-placement="left" title="back to top">
-      <a href="javascript:;">
+     <!-- 多说公共JS代码 end --> 
+	  <a href="javascript:;">
         <div class="arrow"></div>
         <div class="stick"></div>
       </a>

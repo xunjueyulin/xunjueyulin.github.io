@@ -1,8 +1,8 @@
 ---
 title:  "python的科普"
 date:   2021-03-15 22:00:00
-categories: [Python,Blog]
-tags: [blog]
+categories: [Popularization]
+tags: [Python]
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-layout: post
+
 title:  "数据类型和变量"
 date:   2021-03-18 22:00:00
-categories: Python
-comments: true
+categories: [Python,Blog]
+tags: [blog]
 ---
 为了通俗地了解编程语言，我们先绕过Python，讲一讲一些通用内容，就是普适性的，编程语言都会涉及的内容。
 

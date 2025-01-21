@@ -1,8 +1,8 @@
 ---
 title:  "如何读懂社融、M2的笔记"
 date:   2021-03-26 17:23:54
-categories: [Notes,Blog]
-tags: [blog]
+categories: [Social Science Articles]
+tags: [Notes]
 ---
 
 ### 如何读懂社融、M2的笔记

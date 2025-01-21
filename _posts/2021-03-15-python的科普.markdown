@@ -1,13 +1,11 @@
 ---
-layout: post
 title:  "python的科普"
 date:   2021-03-15 22:00:00
-categories: Python
-comments: true
+categories: [Python,Blog]
+tags: [blog]
 ---
 
 
-*最近有位童鞋想了解Python，正好我也觉得，能够深入浅出地进行科普也是让自己理解更深入的机会，正所谓人菜瘾大，故有此篇。*
 
 - 学习编程语言的目的
 

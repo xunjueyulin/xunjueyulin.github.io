@@ -1,3 +1,11 @@
+---
+title:  "5G 测试软件Cellular-Z参数"
+date:   2022-06-14 10:44:00
+categories: [Communications]
+tags: [Network]
+---
+
+
 MCC，Mobile Country Code，移动国家代码（中国的为460）；在该区域内，有共同的编码方法及路由规划，有一个移动交换中心控制区域称为MSC业务区，一个MSC区包含一个或多个位置区。
 
 MNC，Mobile Network Code，移动网络号码（中国移动为0，中国联通为1，中国电信为2）； 

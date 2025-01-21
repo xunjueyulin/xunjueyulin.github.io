@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "N1+旁路由"
+date:   2020-08-20 22:00:00
+categories: Ideas
+comments: true
+---
+```
+ip link set eth0 promisc on # 开启网卡混杂模式
+```
+
+```
+docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.1 -o parent=eth0 macnet # 创建虚拟网络
+```
+
+```
+docker run --restart always -d --network macnet --privileged unifreq/openwrt-aarch64:latest /sbin/init 
+# 开启openwrt容器
+```
+
+```
+docker exec -it cranky_faraday bash 
+# 相当于进入openwrt的shell，其中cranky_faraday为openwrt容器名，可以通过运行docker container ls 显示出的NAMES字段获得
+```
+
+```
+vi /etc/config/network 
+# 将option ipaddr 192.168.X.1替换为你想登录op的ip，注意其应在主路由网段内，如192.168.12.5
+```
+
+```
+reboot
+或者
+/etc/init.d/network restart 
+# 此时已经可以在浏览器中输入192.168.12.5登录openwrt软路由了
+```
+
+openwrt旁路由：关闭dhcp，网关填主路由ip，dns可以为主路由ip或114等公共dns，且将其【物理设置】中的【桥接接口】取消掉。还有最重要的1点：务必在防火墙添加规则设置：
+
+```
+iptables -t nat -I POSTROUTING -j MASQUERADE
+```
+
+并重启防火墙
+
+主路由：开启dhcp，网关和dns填旁路由ip
+
+王小超的方法：
+
+讲openwrt的lan设置成dhcp
+
+然后在设备的网络属性将网关改成openwrt的地址

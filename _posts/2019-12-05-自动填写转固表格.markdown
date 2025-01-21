@@ -1,8 +1,8 @@
 ---
 title:  "自动填写转固表格"
 date:   2019-12-05 22:00:00
-categories: [Ideas,Blog]
-tags: [blog]
+categories: [Records]
+tags: [Ideas]
 ---
 ## 自动填写转固表格
 

@@ -1,8 +1,8 @@
 ---
 title:  "N1+旁路由"
 date:   2020-08-20 22:00:00
-categories: [Ideas,Blog]
-tags: [blog]
+categories: [Tips]
+tags: [Records]
 ---
 ```
 ip link set eth0 promisc on # 开启网卡混杂模式

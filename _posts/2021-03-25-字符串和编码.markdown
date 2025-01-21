@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  "字符串和编码"
 date:   2021-03-25 22:00:00
-categories: Python
-comments: true
+categories: [Python,Blog]
+tags: [blog]
 ---
 
 

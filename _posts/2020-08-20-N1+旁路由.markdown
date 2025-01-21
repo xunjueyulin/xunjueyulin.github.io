@@ -1,7 +1,7 @@
 ---
 title:  "N1+旁路由"
 date:   2020-08-20 22:00:00
-categories: [Records]
+categories: [Records，Tips]
 tags: [Network]
 ---
 ```
